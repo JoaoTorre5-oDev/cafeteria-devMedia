@@ -15,7 +15,17 @@ informações (possui cinco subseções):
 contatos;
 horários;
 rodapé.
-A navegação do projeto estará associada aos links inseridos no topo e no rodapé da página. Ao clicar nesses links o usuário deverá ser direcionado para as seções (Informações, Contatos, Horários nos links do topo e Banner no link do rodapé) da página
+A navegação do projeto estará associada aos links inseridos no topo e no rodapé da página. Ao clicar nesses links o usuário deverá ser direcionado para as seções (Informações, Contatos, Horários nos links do topo e Banner no link do rodapé) da página.
+
+* No desenvolvimento do projeto será utilizado a seguinte paleta de cores:
+
+Paleta de cores utilizada na página da cafeteria.
+#c4a47c;
+#fff;
+#000000;
+#604829;
+#666;
+#ACACAC;
 
 * Objetivo:
 
