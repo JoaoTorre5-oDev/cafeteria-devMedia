@@ -70,3 +70,15 @@ Neste projeto será aplicado ao nosso website um estilo também conhecido como e
 Esse efeito cria uma espécie de ilusão de profundidade nas imagens de fundo de uma página web.
 O efeito ocorre quando um usuário rola o scroll e move a página, dando a impressão, de que o site possui mais uma dimensão.
 Veja no flow abaixo mais sobre o comportamento do site com o efeito aplicado:
+
+ Imagens do projeto
+No desenvolvimento do site serão utilizados seis imagens:
+
+Uma imagem utilizada como logo da página;
+Uma imagem utilizada no banner da página;
+Duas imagens utilizadas na seção informações da página;
+Uma imagem utilizada na seção contatos da página.
+Uma imagem utilizada na seção horários da página.
+Veja na Figura 14 as imagens que serão utilizadas no projeto.
+
+
