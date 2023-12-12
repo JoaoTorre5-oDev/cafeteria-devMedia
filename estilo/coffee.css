@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+:root {
+    /*Variaveis de cores*/
+    --color-garoto:#c4a47c;
+    --color-main-w:#fff;
+    --color-main-b:#000000;
+    --color-brown-d:#604829;
+    --color-gray-d:#666;
+    --color-gray:#ACACAC;
+    /*Variaveis de fontes*/
+    --font-fraunces: 'Fraunces', serif;
+    --font-lato: 'Lato', sans-serif;
+    --font-Oswald: 'Oswald', sans-serif;
+}
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+    justify-content: space-around; /*achei melhor trabalhar com o <- */
+    background-color: var(--color-brown-d);
+    z-index: 1;
+}
+
+.div-logo {
+    min-width: 350px;
+}
+
+.logo {  /* modificado ao meu projeto*/
+    width: 80px;
+}
+
+.nav-cabecalho {
+    text-align: center;
+    min-width: 350px;
+   
+}
+
+.a-cabecalho {
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    border-bottom: solid 2px #000000;  /* adicionei ao meu projeto*/
+
+    font-family: var(--font-Oswald);
+    font-size: 16px;
+    letter-spacing: 1px; /* adicionei ao meu projeto*/
+    color: var(--color-garoto);
+    text-shadow: 2px 2px 2px var(--color-main-b) ;
+}
+.a-cabecalho:hover { /*adicionei ao projeto*/
+    color: var(--color-main-b);
+    background-color: var(--color-garoto);
+    transition:  1s;
+    border-bottom: var(--color-garoto);
+    border-radius: 15px;
+    text-shadow: none;
+}
+/* Fim da estilização do cabecalho */
+.container-banner {
+    height: 100vh;
+    background: url(../imagem/parallax-imagem1.png) no-repeat;
+    background-position: center;
+    background-size: 100% 105%;
+    background-attachment: fixed;
+}
+
+
+
+.h1-parallax01 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center; /* Usei text-align ao invés de usa left 0 e right 0  */
+
+    color: var(--color-main-w);
+    font-family: var(--font-fraunces);
+    font-size: 80px;
+    font-weight: 500; /* aplique para ficar mais proximo da fonte solicidata */
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+
+
+/* estilização global, estou aplicando isso para evitar de repetir em todas as seções que tem o mesmo estilo economizando mais memoria */
+.container-textual {
+    padding: 30px 55px 45px; 
+    height: content;/*achei melhor usar esse caso quisesse adiciona algo não a div irá respeitar meu conteudo*/
+    text-align: center;
+    box-shadow: 1px 1px 20px rgb(156, 138, 122) inset;/* achei melhor add */
+}
+.h2-textual {
+    max-width: 400px;
+    padding: 25px 0px 0px;
+    margin: 20px auto;
+    font-family: var(--font-Oswald);
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: var(--color-garoto);
+
+    text-shadow: 1px 1px black;
+}
+
+.p-textual {
+    margin: 20px auto;
+    max-width: 1024px;
+    padding: 0px 20px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: var(--font-lato);
+}
+
+/* fim da estilização global de seções*/
+.banner-02, .banner-03 {
+    height: 55vh;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.banner-02 {
+    background-image: url(../imagem/parallax-imagem2.jpg);
+}
+.banner-03 {
+    background-image: url(../imagem/parallax-imagem3.jpg);
+}
+
+.h3-parallax {
+    width: 400px;
+    position: relative;
+    top: 45%;
+    margin: auto;
+    padding: 10px;
+    background-color: var(--color-brown-d);
+    color: var(--color-main-w);
+
+    font-family: var(--font-fraunces);
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+/* div contato*/
+.banner-04 {
+    display: block;
+    height: 100vh;
+    
+    background: url(../imagem/parallax-imagem4.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.h2-contato {
+    width: 350px;
+    margin: auto;
+    top: 15%;
+    padding: 10px;
+
+
+    text-align: center;
+    position: relative;
+
+    background-color: var(--color-brown-d);
+    color: var(--color-main-w);
+    border: 1px solid rgb(243, 180, 121);
+}
+
+.iframe-contato {
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    top: 30%;
+    left:25%;
+    right: 25%;
+    position: relative;
+    background-color: #6666662e;
+}
+
+.div-p {
+    display: block;
+}
