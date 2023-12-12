@@ -209,3 +209,11 @@ body {
     letter-spacing: 1px;
 }
 
+.div-horario {
+    height: 100vh;
+    background: url(../imagem/cafeteria.jpg)no-repeat;
+    background-size: 100%;
+}
+.p-horario, .span-horario{
+    color:  var(--color-main-w);
+}
