@@ -20,10 +20,15 @@
     --font-Oswald: 'Oswald', sans-serif;
 }
 
+body {
+    display: block;
+}
+
 .cabecalho {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     align-items: center;
     position: fixed;
     justify-content: space-around; /*achei melhor trabalhar com o <- */
@@ -36,7 +41,7 @@
 }
 
 .logo {  /* modificado ao meu projeto*/
-    width: 80px;
+    height: 60px;
 }
 
 .nav-cabecalho {
@@ -68,9 +73,9 @@
 /* Fim da estilização do cabecalho */
 .container-banner {
     height: 100vh;
-    background: url(../imagem/parallax-imagem1.png) no-repeat;
+    background-image: url(../imagem/parallax-imagem01.png);
     background-position: center;
-    background-size: 100% 105%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -84,7 +89,7 @@
 
     color: var(--color-main-w);
     font-family: var(--font-fraunces);
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 500; /* aplique para ficar mais proximo da fonte solicidata */
     text-shadow: 2px 2px rgb(0, 0, 0);
 }
@@ -122,7 +127,8 @@
 /* fim da estilização global de seções*/
 .banner-02, .banner-03 {
     height: 55vh;
-    background-size: 100%;
+
+    background-size: cover;
     background-attachment: fixed;
 }
 .banner-02 {
@@ -149,25 +155,25 @@
 }
 /* div contato*/
 .banner-04 {
+    display: block;
     height: 100vh;
     background: url(../imagem/parallax-imagem4.png) no-repeat;
-    background-size: cover;
+    background-size: 100% 110%;
+    background-position:center;
     background-attachment: fixed;
+    text-align: center;
 }
 .h2-contato {
-    display: flex;
-    position: relative;
     width: 390px;
     margin: 0 auto;
-    padding: 5px 0px;
-    top: 17%;
-    justify-content: center;
+    position: relative;
+    padding: 4px 0px;
+    top: 11%;
 
     font-family: var(--font-Oswald);
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 2px;
-   
 
     background-color: var(--color-brown-d);
     color: var(--color-main-w);
@@ -175,15 +181,31 @@
 
 .iframe-contato {
     display: flex;
-    width: 730px;
-    height: 315px;
-    margin: 0 auto;
-    top: 25%;
-    
+    width: 720px;
+    height: 300px;
+    margin: 0 auto 10px;
     position: relative;
-    background-color: #6666662e;
+    top: 20%;
+
+    background-color: #868383ef;
 }
 
 .div-p {
     display: block;
+    width: 500px;
+    margin: 14% auto 0px;
+    padding: 10px;
+    position: relative;
+    background-color: var(--color-brown-d);
+
+    font-family: var(--font-Oswald);
+    font-size: 16px;
+    color: var(--color-main-w);
 }
+.a-contato {
+    font-family: var(--font-Oswald);
+    font-size: 16px;
+    color: var(--color-main-w);
+    letter-spacing: 1px;
+}
+
