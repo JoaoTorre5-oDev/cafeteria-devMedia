@@ -149,35 +149,37 @@
 }
 /* div contato*/
 .banner-04 {
-    display: block;
     height: 100vh;
-    
     background: url(../imagem/parallax-imagem4.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 .h2-contato {
-    width: 350px;
-    margin: auto;
-    top: 15%;
-    padding: 10px;
-
-
-    text-align: center;
+    display: flex;
     position: relative;
+    width: 390px;
+    margin: 0 auto;
+    padding: 5px 0px;
+    top: 17%;
+    justify-content: center;
+
+    font-family: var(--font-Oswald);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+   
 
     background-color: var(--color-brown-d);
     color: var(--color-main-w);
-    border: 1px solid rgb(243, 180, 121);
 }
 
 .iframe-contato {
-    width: 700px;
-    height: 350px;
-    margin: auto;
-    top: 30%;
-    left:25%;
-    right: 25%;
+    display: flex;
+    width: 730px;
+    height: 315px;
+    margin: 0 auto;
+    top: 25%;
+    
     position: relative;
     background-color: #6666662e;
 }
