@@ -20,10 +20,6 @@
     --font-Oswald: 'Oswald', sans-serif;
 }
 
-body {
-    display: block;
-}
-
 .cabecalho {
     width: 100%;
     display: flex;
@@ -70,6 +66,8 @@ body {
     border-radius: 15px;
     text-shadow: none;
 }
+
+
 /* Fim da estilização do cabecalho */
 .container-banner {
     height: 100vh;
@@ -153,6 +151,7 @@ body {
     font-style: italic;
     text-align: center;
 }
+
 /* div contato*/
 .banner-04 {
     display: block;
@@ -205,15 +204,81 @@ body {
 .a-contato {
     font-family: var(--font-Oswald);
     font-size: 16px;
+    text-decoration: none;
     color: var(--color-main-w);
     letter-spacing: 1px;
 }
 
+/* estilização da div horarios */
 .div-horario {
-    height: 100vh;
+    height: 90vh;
     background: url(../imagem/cafeteria.jpg)no-repeat;
     background-size: 100%;
+    background-position: center;
 }
-.p-horario, .span-horario{
+.h2-horario, .p-horario, .span-horario {
     color:  var(--color-main-w);
+}
+
+.h2-horario {
+    width: 500px;
+    position: relative;
+    top: 20%;
+    margin: 0 auto;
+
+    font-family: var(--font-Oswald);
+    font-size: 18px;
+    text-align: center;
+}
+.ul-horario {
+    width: 710px;
+    position: relative;
+    top: 35%;
+    margin: auto;
+}
+
+.li-horario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+   
+}
+.p-horario {
+    width: 100px;
+    padding: 5px;
+}
+.div-linha {
+    border: solid 1px white;
+    width: 65%;
+    height: 1px;
+}
+.span-horario {
+    min-width: 110px;
+    position: relative;
+    padding: 5px;
+}
+
+
+footer {
+    height: 10vh;
+    padding: 10px;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    background-color: #000000;
+    color: white;
+}
+.span-aluno {
+    color: var(--color-garoto);
+    font-size: 18px;
+    font-weight: 600;
+}
+.a-seta {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 65px;
+    right: 60px;
 }
