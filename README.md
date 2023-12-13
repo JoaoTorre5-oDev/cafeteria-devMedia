@@ -1,7 +1,7 @@
 # cafeteria-devMedia
 
 Projeto desenvolvido para missão da plataforma DevMedia
-A página será dividida em seis seções:
+A página será dividida em seis seções e será para visualização em desktop:
 
 topo;
 banner;
